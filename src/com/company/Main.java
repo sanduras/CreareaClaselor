@@ -18,9 +18,10 @@ public class Main {
 
         Drona dji = new Drona("dji",80 ,24,3880) ;
 
-        dji.setRaza_actiune(90);
+        dji.setRazaActiune(90);
         dji.setRezolutie_cam(26);
 
         System.out.println(dji.print());
+        System.out.println(dji.getControler());
     }
 }

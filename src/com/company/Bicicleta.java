@@ -2,30 +2,30 @@ package com.company;
 
 public class Bicicleta {
     private String denumire;
-    private int nr_viteze;
+    private int nrViteze;
     private String culoare;
-    private String tip_frina;
+    private String tipFrina;
 
-    public Bicicleta(String denumire, int nr_viteze, String culoare, String tip_frina) {
+    public Bicicleta(String denumire, int nrViteze, String culoare, String tipFrina) {
         this.denumire = denumire;
-        this.nr_viteze = nr_viteze;
+        this.nrViteze = nrViteze;
         this.culoare = culoare;
-        this.tip_frina = tip_frina;
+        this.tipFrina = tipFrina;
     }
 
     public void setCuloare(String culoare) {
         this.culoare = culoare;
     }
 
-    public void setNr_viteze(int nr_viteze) {
-        this.nr_viteze = nr_viteze;
+    public void setNr_viteze(int nrViteze) {
+        this.nrViteze = nrViteze;
     }
 
     public String print(){
         return ("Denumire :" + this.denumire +"\n" +
-                "Numarul de viteze :" + this.nr_viteze + "\n" +
+                "Numarul de viteze :" + this.nrViteze + "\n" +
                 "Culoarea :" + this.culoare + "\n" +
-                "Tipul frinei :" + this.tip_frina
+                "Tipul frinei :" + this.tipFrina
         );
 
     }
